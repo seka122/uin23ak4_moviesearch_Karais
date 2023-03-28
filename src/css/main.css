@@ -1,3 +1,27 @@
+#NavBar {
+  background-color: #000;
+  position: fixed;
+  padding: 8px 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.navbar_logo {
+  color: #ff0000;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
 main {
   display: block;
   height: 100px;

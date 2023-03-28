@@ -1,5 +1,4 @@
 import React from 'react';
-//import './components/NavBar.scss';
 
 export default function NavBar() {
   return (
@@ -15,3 +14,4 @@ export default function NavBar() {
     </div>
   );
 }
+
