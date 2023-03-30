@@ -1,6 +1,12 @@
 @import "./NavBar.scss";
 
+
 main {
     display: block;
     height: 100px;
+
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }

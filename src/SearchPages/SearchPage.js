@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import SearchResult from './components/SearchResults/SearchResults';
-import './SearchPages.scss';
-import Fetch from 'Fetch';
+//import SearchResult from '../components/SearchResults';
+//import './Sass/SearchResults.scss';
+//import Axios from "axios";
+//import { fetchUrl } from 'fetch';
 
 
 export default function SearchPages() {
-    const [searchData, setSearchData] = useState("");
+    /*const [searchData, setSearchData] = useState("");
 
     useEffect(() => {
       callApiInitialMovie();
@@ -13,9 +14,9 @@ export default function SearchPages() {
 }
 
 const callApiInitialMovie = () => {
-  const promise = Fetch({
+  const promise = fetch({
     method: "GET",
-    url: "https://www.omdbapi.com/?apikey=f7402ede&s=James+Bond&type=movie",
+    url: "http://www.omdbapi.com/apikey.aspx?VERIFYKEY=76d6b8ef-3430-4ea0-907c-eaa3549d61db",
   });
 
 
@@ -31,10 +32,10 @@ promise
 
 const closeModal = () => {
   setIsShowPopup((prevState) => !prevState);
-};
+};*/
 
 return (
-  <main id="search">
+  {/*<main id="search">
     <SearchForm getSearchKeyWord={getSearchKeyWord} />
     <SearchResult searchData={searchData} getMovieData={getMovieData} />
     <MovieDetailPopup
@@ -42,6 +43,6 @@ return (
       movieDetail={movieDetail}
       closeModal={closeModal}
     />
-  </main>
+</main>*/}
 );
 }
