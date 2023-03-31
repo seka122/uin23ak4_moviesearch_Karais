@@ -1,5 +1,5 @@
 import React from 'react';
-//import './sass/SearchResults.scss';
+
 
 export default function SearchResults(props) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-//import './Sass/MovieCards.scss';
+
 
 export default function MovieCard({result, title, img, year}) {
   return (
